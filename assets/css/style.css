@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.menu-icons {
+    font-size: 25px;
+    transition: transform .2s;
+}
+
+.header-btn .btn {
+    background: rgb(119, 0, 119);
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 100%;
+    border: none !important;
+    border-radius: 0% !important;
+}
+
+.tag {
+    background: rgb(119, 0, 119);
+    color: #fff;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none !important;
+    border-radius: 5px !important;
+}
+
+.main {
+    margin-bottom: 20%;
+}
+
+.header-img img {
+    width: 100%;
+    height: 190px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.featured-post-item {
+    width: 150px;
+    margin: 0 !important;
+}
+
+.featured-post-text {
+    padding-top: 10px;
+}
+
+.featured-post-text h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.featured-post-text p {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    color: rgb(99, 99, 99);
+}
+
+.featured-post-price p {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .m-menu {
+        left: 0 !important;
+        right: 0 !important;
+        z-index: 99 !important;
+        position: fixed !important;
+        padding: 4px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .menu {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0 !important;
+        width: 100% !important;
+        color: rgb(99, 99, 99);
+        transition: transform .2s;
+        text-align: center;
+        background: rgba( 30, 32, 40, 0.1 );
+        backdrop-filter: blur( 20px );
+        -webkit-backdrop-filter: blur( 20px );
+        border-radius: 10px 10px 0 0;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        border-bottom: none;
+    }
+
+    .m-menu .active {
+        color: #fff;
+        transform: scale(1.1);
+    }
+
+    .menu-icons span {
+        display: grid;
+        font-size: 15px;
+        text-align: center;
+        margin: 0 !important;
+        font-family: 'Nunito', sans-serif;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .m-menu {
+        display: none !important;
+    }
+}
