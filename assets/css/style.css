@@ -111,9 +111,7 @@ h1, h2 {
         color: rgb(99, 99, 99);
         transition: transform .2s;
         text-align: center;
-        background: rgba( 30, 32, 40, 0.1 );
-        backdrop-filter: blur( 20px );
-        -webkit-backdrop-filter: blur( 20px );
+        background: rgb(0, 0, 0);
         border-radius: 10px 10px 0 0;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
         border-bottom: none;
