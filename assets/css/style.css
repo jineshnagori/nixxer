@@ -39,6 +39,14 @@ a.btn {
     font-weight: bold;
 }
 
+.bestseller {
+    background: rgb(255, 115, 0) !important;
+}
+
+.featured {
+    background: rgb(255, 0, 0) !important;
+}
+
 .categories-item {
     background: transparent;
     border: 2px solid rgb(119, 0, 119);
@@ -77,6 +85,10 @@ a.btn:hover {
     transition: transform .2s;
 }
 
+.pt-10 {
+    padding-top: 1.5rem;
+}
+
 .header-btn .btn {
     background: rgb(119, 0, 119);
     color: #fff;
@@ -89,7 +101,6 @@ a.btn:hover {
 }
 
 .tag {
-    background: rgb(119, 0, 119);
     color: #fff;
     padding: 5px;
     font-size: 10px;
@@ -97,6 +108,21 @@ a.btn:hover {
     font-weight: bold;
     border: none !important;
     border-radius: 5px !important;
+}
+
+.featured-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.featured-container-header a {
+    padding: 5px 10px;
+}
+
+.featured-container-header h2 {
+    font-size: 20px;
 }
 
 .content {
