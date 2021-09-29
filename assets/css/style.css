@@ -53,6 +53,14 @@ a.btn {
     display: none;
 }
 
+.section-hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 a.btn:hover {
     background: rgb(0, 0, 0);
     color: #fff;
@@ -91,7 +99,7 @@ a.btn:hover {
     border-radius: 5px !important;
 }
 
-.main {
+.content {
     margin-bottom: 20%;
 }
 
