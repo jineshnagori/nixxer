@@ -82,6 +82,11 @@ a.btn:hover {
     transition: transform .2s;
 }
 
+.user-icons {
+    font-size: 25px;
+    transition: transform .2s;
+}
+
 .pt-10 {
     padding-top: 1.5rem;
 }
