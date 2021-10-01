@@ -31,11 +31,8 @@ h1, h2 {
 
 a.btn {
     text-decoration: none;
-    color: #fff;
-    background: rgb(119, 0, 119);
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
+    color: #b19cd9;
+    font-size: 14px;
     font-weight: bold;
 }
 
@@ -161,6 +158,13 @@ a.btn:hover {
 
 .featured-post-price p {
     margin-bottom: 0;
+}
+
+.user-settings span {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    color: rgb(99, 99, 99);
+    font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
