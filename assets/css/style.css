@@ -308,6 +308,16 @@ a.btn:hover {
   background-color: #f6f5f0;
 }
 
+.project-rating {
+  font-size: 12px;
+  color: #ffd700;
+}
+
+.project-rating span {
+  color: rgb(202, 202, 202);
+  padding-left: 5px;
+}
+
 .finder__icon:before {
   width: 4px;
   height: 13px;
