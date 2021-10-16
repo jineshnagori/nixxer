@@ -65,14 +65,12 @@ a.btn {
   display: none;
 }
 
-.show {
-  display: block;
+.hide {
+  display: none !important;
 }
 
-a.btn:hover {
-  background: rgb(0, 0, 0);
-  color: #fff;
-  border: 2px solid rgb(119, 0, 119);
+.show {
+  display: block;
 }
 
 .btn:focus {
@@ -316,6 +314,14 @@ a.btn:hover {
 .project-rating span {
   color: rgb(202, 202, 202);
   padding-left: 5px;
+}
+
+.featured-post-text span{
+  color: #b19cd9;
+}
+
+.project-page {
+  display: none;
 }
 
 .finder__icon:before {
